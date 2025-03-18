@@ -1,6 +1,6 @@
 package ex_01_Java_Basic;
 
-public class Lab011_Math_Table {
+public class Lab011_Math_Table_Task {
     public static void main(String[] args) {
 
         int num = 9;
