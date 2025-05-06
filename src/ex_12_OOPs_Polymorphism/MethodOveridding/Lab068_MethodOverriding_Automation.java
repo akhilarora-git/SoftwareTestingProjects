@@ -24,23 +24,27 @@ public class Lab068_MethodOverriding_Automation {
 
     }
 }
-class CommonToAll{
-    void openBrowser(){
+
+class CommonToAll {
+    void openBrowser() {
         System.out.println("Open IE Browser!");
     }
 }
-class ChromeTC extends CommonToAll{
+
+class ChromeTC extends CommonToAll {
     @Override
     void openBrowser() {
         System.out.println("Chrome will Open Now!");
     }
-    int openBrowser(int a){
+
+    int openBrowser(int a) {
         return 10;
     }
 }
-class Firefox extends CommonToAll{
+
+class Firefox extends CommonToAll {
     @Override
-    void openBrowser(){
+    void openBrowser() {
         System.out.println("Firefox will start!");
     }
 }

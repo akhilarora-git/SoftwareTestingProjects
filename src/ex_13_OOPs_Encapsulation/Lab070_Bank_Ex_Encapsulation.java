@@ -2,17 +2,16 @@ package ex_13_OOPs_Encapsulation;
 
 public class Lab070_Bank_Ex_Encapsulation {
     public static void main(String[] args) {
-        ICICIBank akaal = new ICICIBank("Akaal",200);
+        ICICIBank akaal = new ICICIBank("Akaal", 200);
 
         long bal = akaal.getBal();
         System.out.println(akaal.getName());
         System.out.println(bal);
 
-        akaal.setBal(500,false);
+        akaal.setBal(500, false);
 
         long updated_bal = akaal.getBal();
         System.out.println(updated_bal);
-
 
 
     }
